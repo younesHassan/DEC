@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173e36">
+  <meta name="description" content="Yunis’s private beginner study book for Data Encryption and Codes at the University of Palermo. Read, work through examples, and practice each idea.">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Data Encryption & Codes | Yunis’s Study Book</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23173e36'/%3E%3Cpath d='M18 15h21a8 8 0 0 1 8 8v26H26a8 8 0 0 0-8-4zm8 30h21M26 23h13M26 30h13' stroke='%23e8d4a6' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="book.js"></script>
+  <script defer src="engine.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#content" data-scroll="content">Skip to the lesson</a>
+  <header class="topbar">
+    <button id="menu-toggle" class="icon-button menu-toggle" aria-label="Open chapter navigation" aria-expanded="false" aria-controls="sidebar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    <a href="#read/purpose" class="brand" aria-label="Data Encryption and Codes study book"><span class="brand-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h10a4 4 0 0 1 4 4v12H9a4 4 0 0 0-4-2zm4 14h10M9 8h6M9 12h6"/></svg></span><span>THE STUDY BOOK<span class="brand-sub">Data Encryption & Codes</span></span></a>
+    <nav class="topnav" aria-label="Study tools"><a href="#read" data-nav="read">Read</a><a href="#lab" data-nav="lab">Practice lab</a><a href="#symbols" data-nav="symbols">Symbol guide</a><a href="#map" data-nav="map">Course map</a></nav>
+    <span class="private-label"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="10" width="12" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Private</span>
+  </header>
+  <button id="backdrop" class="backdrop" aria-label="Close chapter navigation" hidden></button>
+  <aside id="sidebar" class="sidebar" aria-label="Book contents">
+    <div class="sidebar-intro"><span class="eyebrow">YOUR LEARNING PATH</span><h2>A little clearer,<br>chapter by chapter.</h2><p>University of Palermo<br>Yunis’s course companion</p></div>
+    <div class="progress-panel"><div><span>Book progress</span><strong id="progress-label">0 / 26</strong></div><progress id="book-progress" value="0" max="26" aria-label="Completed chapters"></progress><p id="progress-note">One concept at a time. No rush.</p></div>
+    <label class="chapter-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><input id="chapter-search" type="search" placeholder="Find a chapter…" aria-label="Search chapters"></label>
+    <nav id="chapters" class="chapter-list" aria-label="Chapters"></nav>
+    <div class="sidebar-foot"><span class="tiny-dot"></span> Built for learning from scratch</div>
+  </aside>
+  <main id="content" tabindex="-1"></main>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <noscript><div class="noscript">Enable JavaScript to open chapters and use the interactive practice tools.</div></noscript>
+</body>
+</html>
